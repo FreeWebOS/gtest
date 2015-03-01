@@ -1,0 +1,492 @@
+The system is: FreeBSD - 10.1-RELEASE-p5 - amd64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/CC 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/3.1.3/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/3.1.3/CompilerIdC/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3300731122/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3300731122.dir/build.make CMakeFiles/cmTryCompileExec3300731122.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3300731122.dir/testCXXCompiler.cxx.o
+/usr/bin/CC     -o CMakeFiles/cmTryCompileExec3300731122.dir/testCXXCompiler.cxx.o -c /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec3300731122
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3300731122.dir/link.txt --verbose=1
+/usr/bin/CC       CMakeFiles/cmTryCompileExec3300731122.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3300731122  
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4159722016/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4159722016.dir/build.make CMakeFiles/cmTryCompileExec4159722016.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4159722016.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/CC     -o CMakeFiles/cmTryCompileExec4159722016.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec4159722016
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4159722016.dir/link.txt --verbose=1
+/usr/bin/CC      -v CMakeFiles/cmTryCompileExec4159722016.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec4159722016   
+FreeBSD clang version 3.4.1 (tags/RELEASE_34/dot1-final 208032) 20140512
+Target: x86_64-unknown-freebsd10.1
+Thread model: posix
+Selected GCC installation: 
+ "/usr/bin/ld" --eh-frame-hdr -dynamic-linker /libexec/ld-elf.so.1 --hash-style=both --enable-new-dtags -o cmTryCompileExec4159722016 /usr/lib/crt1.o /usr/lib/crti.o /usr/lib/crtbegin.o -L/usr/lib CMakeFiles/cmTryCompileExec4159722016.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/crtend.o /usr/lib/crtn.o
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec4159722016/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec4159722016.dir/build.make CMakeFiles/cmTryCompileExec4159722016.dir/build]
+  ignore line: [/usr/local/bin/cmake -E cmake_progress_report /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec4159722016.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/CC     -o CMakeFiles/cmTryCompileExec4159722016.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec4159722016]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4159722016.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/CC      -v CMakeFiles/cmTryCompileExec4159722016.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec4159722016   ]
+  ignore line: [FreeBSD clang version 3.4.1 (tags/RELEASE_34/dot1-final 208032) 20140512]
+  ignore line: [Target: x86_64-unknown-freebsd10.1]
+  ignore line: [Thread model: posix]
+  ignore line: [Selected GCC installation: ]
+  link line: [ "/usr/bin/ld" --eh-frame-hdr -dynamic-linker /libexec/ld-elf.so.1 --hash-style=both --enable-new-dtags -o cmTryCompileExec4159722016 /usr/lib/crt1.o /usr/lib/crti.o /usr/lib/crtbegin.o -L/usr/lib CMakeFiles/cmTryCompileExec4159722016.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/crtend.o /usr/lib/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/libexec/ld-elf.so.1] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec4159722016] ==> ignore
+    arg [/usr/lib/crt1.o] ==> ignore
+    arg [/usr/lib/crti.o] ==> ignore
+    arg [/usr/lib/crtbegin.o] ==> ignore
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec4159722016.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/crtend.o] ==> ignore
+    arg [/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [c++;m;c]
+  implicit dirs: [/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1y] compiler features compiled with the following output:
+Change Dir: /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec440609888/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec440609888.dir/build.make CMakeFiles/cmTryCompileExec440609888.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec440609888.dir/feature_tests.cxx.o
+/usr/bin/CC    -std=c++1y -o CMakeFiles/cmTryCompileExec440609888.dir/feature_tests.cxx.o -c /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec440609888
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec440609888.dir/link.txt --verbose=1
+/usr/bin/CC       CMakeFiles/cmTryCompileExec440609888.dir/feature_tests.cxx.o  -o cmTryCompileExec440609888  
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec402382153/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec402382153.dir/build.make CMakeFiles/cmTryCompileExec402382153.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec402382153.dir/feature_tests.cxx.o
+/usr/bin/CC    -std=c++11 -o CMakeFiles/cmTryCompileExec402382153.dir/feature_tests.cxx.o -c /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec402382153
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec402382153.dir/link.txt --verbose=1
+/usr/bin/CC       CMakeFiles/cmTryCompileExec402382153.dir/feature_tests.cxx.o  -o cmTryCompileExec402382153  
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4095193105/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4095193105.dir/build.make CMakeFiles/cmTryCompileExec4095193105.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4095193105.dir/feature_tests.cxx.o
+/usr/bin/CC    -std=c++98 -o CMakeFiles/cmTryCompileExec4095193105.dir/feature_tests.cxx.o -c /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec4095193105
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4095193105.dir/link.txt --verbose=1
+/usr/bin/CC       CMakeFiles/cmTryCompileExec4095193105.dir/feature_tests.cxx.o  -o cmTryCompileExec4095193105  
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4102939624/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4102939624.dir/build.make CMakeFiles/cmTryCompileExec4102939624.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4102939624.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4102939624.dir/testCCompiler.c.o   -c /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec4102939624
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4102939624.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTryCompileExec4102939624.dir/testCCompiler.c.o  -o cmTryCompileExec4102939624  
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3183954202/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3183954202.dir/build.make CMakeFiles/cmTryCompileExec3183954202.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3183954202.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3183954202.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3183954202
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3183954202.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec3183954202.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3183954202   
+FreeBSD clang version 3.4.1 (tags/RELEASE_34/dot1-final 208032) 20140512
+Target: x86_64-unknown-freebsd10.1
+Thread model: posix
+Selected GCC installation: 
+ "/usr/bin/ld" --eh-frame-hdr -dynamic-linker /libexec/ld-elf.so.1 --hash-style=both --enable-new-dtags -o cmTryCompileExec3183954202 /usr/lib/crt1.o /usr/lib/crti.o /usr/lib/crtbegin.o -L/usr/lib CMakeFiles/cmTryCompileExec3183954202.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/crtend.o /usr/lib/crtn.o
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec3183954202/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3183954202.dir/build.make CMakeFiles/cmTryCompileExec3183954202.dir/build]
+  ignore line: [/usr/local/bin/cmake -E cmake_progress_report /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3183954202.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3183954202.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3183954202]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3183954202.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec3183954202.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3183954202   ]
+  ignore line: [FreeBSD clang version 3.4.1 (tags/RELEASE_34/dot1-final 208032) 20140512]
+  ignore line: [Target: x86_64-unknown-freebsd10.1]
+  ignore line: [Thread model: posix]
+  ignore line: [Selected GCC installation: ]
+  link line: [ "/usr/bin/ld" --eh-frame-hdr -dynamic-linker /libexec/ld-elf.so.1 --hash-style=both --enable-new-dtags -o cmTryCompileExec3183954202 /usr/lib/crt1.o /usr/lib/crti.o /usr/lib/crtbegin.o -L/usr/lib CMakeFiles/cmTryCompileExec3183954202.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/crtend.o /usr/lib/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/libexec/ld-elf.so.1] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3183954202] ==> ignore
+    arg [/usr/lib/crt1.o] ==> ignore
+    arg [/usr/lib/crti.o] ==> ignore
+    arg [/usr/lib/crtbegin.o] ==> ignore
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec3183954202.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/crtend.o] ==> ignore
+    arg [/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1378804719/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1378804719.dir/build.make CMakeFiles/cmTryCompileExec1378804719.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1378804719.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTryCompileExec1378804719.dir/feature_tests.c.o   -c /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec1378804719
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1378804719.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTryCompileExec1378804719.dir/feature_tests.c.o  -o cmTryCompileExec1378804719  
+
+
+    Feature record: C_FEATURE:0c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1954321890/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1954321890.dir/build.make CMakeFiles/cmTryCompileExec1954321890.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1954321890.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTryCompileExec1954321890.dir/feature_tests.c.o   -c /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec1954321890
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1954321890.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTryCompileExec1954321890.dir/feature_tests.c.o  -o cmTryCompileExec1954321890  
+
+
+    Feature record: C_FEATURE:0c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1080017896/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1080017896.dir/build.make CMakeFiles/cmTryCompileExec1080017896.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1080017896.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTryCompileExec1080017896.dir/feature_tests.c.o   -c /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec1080017896
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1080017896.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTryCompileExec1080017896.dir/feature_tests.c.o  -o cmTryCompileExec1080017896  
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4095296349/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4095296349.dir/build.make CMakeFiles/cmTryCompileExec4095296349.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4095296349.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4095296349.dir/CheckIncludeFiles.c.o   -c /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4095296349
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4095296349.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTryCompileExec4095296349.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4095296349  
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1139108277/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1139108277.dir/build.make CMakeFiles/cmTryCompileExec1139108277.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1139108277.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTryCompileExec1139108277.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1139108277
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1139108277.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   CMakeFiles/cmTryCompileExec1139108277.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1139108277  -lpthread 
+
+

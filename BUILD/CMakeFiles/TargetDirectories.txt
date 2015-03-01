@@ -1,0 +1,2 @@
+/home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/gtest.dir
+/home/peter/devel/gtest-1.7.0/BUILD/CMakeFiles/gtest_main.dir
